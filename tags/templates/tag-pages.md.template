@@ -1,0 +1,9 @@
+---
+title: Tag.{{tag}}
+---
+
+# This page contains all documentation relative to {{tag}} tag
+
+{%  for page in pages %}
+  * [{{page.title}}]({{page.filename}})
+{% endfor %}
